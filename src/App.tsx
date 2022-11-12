@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Main from './components/page/Main';
 
 function App() {
   return (
-    <div className="App">
-      메인페이지
-    </div>
+    <>
+      <Main/>
+    </>
   );
 }
 
