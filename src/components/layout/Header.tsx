@@ -1,19 +1,40 @@
-import { Grid, TextField, Avatar, Badge } from "@mui/material";
+import {
+  Grid,
+  Avatar,
+  Badge,
+  InputAdornment,
+  OutlinedInput,
+} from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
 
 /**
  * @description 헤더 컴포넌트
  */
 function Header() {
   return (
-    <Grid container spacing={2} marginTop="10px">
-      <Grid item xs={2}>
+    <Grid container spacing={2} mt="10px">
+      <Grid item xs={1}>
         <img src="images/java-image.png" width="80px" />
       </Grid>
-      <Grid item xs={8}>
-        <TextField fullWidth label="fullWidth" id="fullWidth" />
+      <Grid item xs={1}></Grid>
+      <Grid item xs={8} mt="15px">
+        <OutlinedInput
+          id="outlined-adornment-weight"
+          fullWidth
+          value=""
+          endAdornment={
+            <InputAdornment position="end">
+              <SearchIcon
+                aria-label="toggl visibility"
+                style={{ cursor: "pointer" }}
+              />
+            </InputAdornment>
+          }
+        />
       </Grid>
-      <Grid item xs={2}>
-        <Badge color="secondary" badgeContent={99}>
+      <Grid item xs={1}></Grid>
+      <Grid item xs={1} container justifyContent="center">
+        <Badge color="secondary" badgeContent={99} showZero>
           <Avatar alt="Remy Sharp" src="images/monkey.png" />
         </Badge>
       </Grid>
