@@ -1,9 +1,8 @@
-import React from 'react'
-
+/**
+ * @description 푸터 컴포넌트
+ */
 function Footer() {
-  return (
-    <div>Footer</div>
-  )
+  return <p>Footer</p>;
 }
 
-export default Footer
+export default Footer;

@@ -1,12 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Main from './components/page/Main';
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 function App() {
   return (
     <>
-      <Main/>
+      <Header />
+      <Footer />
     </>
   );
 }
