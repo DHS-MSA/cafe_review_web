@@ -1,7 +1,6 @@
 import { useState } from "react";
-
-import { ToggleButton, ToggleButtonGroup } from "@mui/material";
-import { Margin } from "@mui/icons-material";
+import IconsRadio from "../mui/IconsRadio";
+import ChoiceChipCheckbox from "../mui/ChoiceChipCheckbox";
 
 function Contents() {
   const [alignment, setAlignment] = useState<string>("web");
@@ -15,19 +14,11 @@ function Contents() {
 
   return (
     <>
-      <ToggleButtonGroup
-        color="primary"
-        value={alignment}
-        exclusive
-        size="large"
-        onChange={handleChange}
-        aria-label="Platform"
+      <IconsRadio style={{ display: "flex", justifyContent: "center" }} />
+      <hr />
+      <ChoiceChipCheckbox
         style={{ display: "flex", justifyContent: "center" }}
-      >
-        <ToggleButton value="web">전체</ToggleButton>
-        <ToggleButton value="android">체인점</ToggleButton>
-        <ToggleButton value="ios">개인카페</ToggleButton>
-      </ToggleButtonGroup>
+      />
     </>
   );
 }
