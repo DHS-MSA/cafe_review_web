@@ -4,15 +4,11 @@ import ListItem from "@mui/joy/ListItem";
 import Done from "@mui/icons-material/Done";
 import { ChangeEvent, useState } from "react";
 
-type Props = {
-  style?: React.CSSProperties;
-};
-
 /**
  *
  * @description 카페 카테고리 컴포넌트
  */
-export default function ChoiceChipCheckbox({ style }: Props) {
+export default function ChoiceChipCheckbox() {
   // state
   const [value, setValue] = useState<string[]>([]);
 
@@ -28,7 +24,7 @@ export default function ChoiceChipCheckbox({ style }: Props) {
   return (
     <>
       <List
-        style={style}
+        style={{ display: "flex", justifyContent: "center" }}
         row
         wrap
         sx={{

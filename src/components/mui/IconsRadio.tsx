@@ -1,23 +1,16 @@
-import * as React from "react";
-import Avatar from "@mui/joy/Avatar";
 import FormLabel from "@mui/joy/FormLabel";
 import Radio, { radioClasses } from "@mui/joy/Radio";
 import RadioGroup from "@mui/joy/RadioGroup";
 import Sheet from "@mui/joy/Sheet";
-import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
-
-type Props = {
-  style?: React.CSSProperties;
-};
 
 /**
  * @description 전체, 개인카페, 체인점 카테고리 컴포넌트
  */
-function IconsRadio({ style }: Props) {
+function IconsRadio() {
   return (
     <>
       <RadioGroup
-        style={style}
+        style={{ display: "flex", justifyContent: "center" }}
         aria-label="platform"
         defaultValue="Website"
         overlay
