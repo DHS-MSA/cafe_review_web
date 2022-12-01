@@ -12,7 +12,13 @@ import Favorite from "@mui/icons-material/Favorite";
 import Visibility from "@mui/icons-material/Visibility";
 import CreateNewFolder from "@mui/icons-material/CreateNewFolder";
 
-function CafeInfo() {
+type Props = {
+  name: string;
+  rating: number;
+  likeCount: number;
+};
+
+function CafeInfo({ name, rating, likeCount }: Props) {
   return (
     <Card
       sx={{
@@ -89,7 +95,7 @@ function CafeInfo() {
           sx={{ "--Avatar-size": "1.5rem" }}
         />
         <Typography sx={{ fontSize: "sm", fontWeight: "md" }}>
-          National Park
+          {name}
         </Typography>
         <Chip
           variant="outlined"
@@ -115,7 +121,7 @@ function CafeInfo() {
             "&:hover": { color: "danger.plainColor" },
           }}
         >
-          117
+          {likeCount}
         </Link>
         <Link
           href="#dribbble-shot"
