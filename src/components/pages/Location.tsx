@@ -1,5 +1,5 @@
 function Location() {
-  return null;
+    return null;
 }
 
 export default Location;

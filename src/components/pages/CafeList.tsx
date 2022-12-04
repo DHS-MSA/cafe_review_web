@@ -1,5 +1,5 @@
 function CafeList() {
-  return null;
+    return null;
 }
 
 export default CafeList;
