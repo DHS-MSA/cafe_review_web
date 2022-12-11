@@ -6,6 +6,7 @@ import {
     OutlinedInput,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import { Link } from "react-router-dom";
 
 /**
  * @description 헤더 컴포넌트
@@ -32,7 +33,9 @@ function Header() {
                     }
                 />
             </Grid>
-            <Grid item xs={1}></Grid>
+            <Grid item xs={1}>
+                <Link to="/registration">카페 등록하기</Link>
+            </Grid>
             <Grid item xs={1} container justifyContent="center">
                 <Badge color="secondary" badgeContent={99} showZero>
                     <Avatar alt="Remy Sharp" src="images/monkey.png" />

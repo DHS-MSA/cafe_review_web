@@ -11,9 +11,6 @@ import LinkMui from "@mui/joy/Link";
 import Favorite from "@mui/icons-material/Favorite";
 import Visibility from "@mui/icons-material/Visibility";
 import CreateNewFolder from "@mui/icons-material/CreateNewFolder";
-import { shadows } from "@mui/system";
-
-import { Link } from "react-router-dom";
 
 type Props = {
     name: string;
