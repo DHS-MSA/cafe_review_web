@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import CafeInfoDetail from "@/components/pages/CafeInfoDetail";
 import Registration from "@/components/pages/Registration";
+import TestPage from "@/components/pages/TestPage";
 import App from "@/App";
 
 /**
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path: "/registration",
         element: <Registration />,
+    },
+    {
+        path: "/testPage",
+        element: <TestPage />,
     },
 ]);
 
