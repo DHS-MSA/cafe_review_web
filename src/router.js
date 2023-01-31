@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import CafeInfoDetail from "@/components/pages/CafeInfoDetail";
 import Registration from "@/components/pages/Registration";
-import TestPage from "@/components/pages/TestPage";
+import TestPage from "@/components/pages/TestMain/TestPage";
 import App from "@/App";
 
 /**
