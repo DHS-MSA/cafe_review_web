@@ -10,7 +10,7 @@ function Contents() {
                 <IconsRadio />
                 <ChoiceChipCheckbox />
                 <Container maxWidth={false} disableGutters={true}>
-                    <RecommendationCafeList />
+                    {/* <RecommendationCafeList /> */}
                 </Container>
             </Stack>
         </>
