@@ -12,7 +12,7 @@ const Header = () => {
 		<div className="header-subcontainer">
 			<SearchForm />
 		</div>
-		<div className="header-subcontainer">
+		<div className="header-subcontainer right">
 			<AddNewReview />
 		</div>
 	</div>
