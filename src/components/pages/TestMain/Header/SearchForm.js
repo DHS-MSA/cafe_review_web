@@ -1,17 +1,9 @@
-import BorderBox from "@/styled/BorderBox";
-import './SearchForm.css';
+import styles from "./SearchForm.module.css";
 
 const SearchForm = () => {
-	// return <BorderBox borderRadius='15px' alignItems='center'>
-	// 	<form className="search-form">
-	// 		<input placeholder="Store name"></input>
-	// 		<input placeholder="Location"></input>
-	// 		<button>B</button>
-	// 	</form>
-	// </BorderBox>
-	return <form className="search-form">
-		<input placeholder="Store name"></input>
-		<input placeholder="Location"></input>
+	return <form className={styles['search-form']}>
+		<input className={styles["search-input"]} placeholder="Store name"></input>
+		<input className={styles["search-input"]} placeholder="Location"></input>
 		<button>B</button>
 	</form>
 };

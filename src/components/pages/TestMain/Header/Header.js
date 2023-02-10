@@ -1,18 +1,17 @@
-import BorderBox from "@/styled/BorderBox";
-import AddNewReview from "./AddNewReview";
 import Logo from "./Logo";
 import SearchForm from "./SearchForm";
-import './Header.css';
+import AddNewReview from "./AddNewReview";
+import styles from "./Header.module.css";
 
 const Header = () => {
-	return <div className="header-container">
-		<div className="header-subcontainer">
+	return <div className={styles.container}>
+		<div className={styles['sub-container']}>
 			<Logo />
 		</div>
-		<div className="header-subcontainer">
+		<div className={styles['sub-container']}>
 			<SearchForm />
 		</div>
-		<div className="header-subcontainer right">
+		<div className={styles['sub-container']}>
 			<AddNewReview />
 		</div>
 	</div>
