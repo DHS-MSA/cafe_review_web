@@ -1,0 +1,39 @@
+.main-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+	border-radius: 15px;
+    width: 275px;
+    height: 355px;
+    cursor: pointer;
+}
+
+.review-image {
+	border-radius: 15px;
+	height: 70%;
+    margin-bottom: 3%;
+	position: relative;
+	overflow: hidden;
+}
+
+.sub-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.store-info p {
+    margin-bottom: 2%;
+}
+
+.review-point {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}

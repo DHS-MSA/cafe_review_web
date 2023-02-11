@@ -1,9 +1,11 @@
-import RoundedBox from "@/styled/RoundedBox";
+import styles from "./MainTag.module.css";
 
 const MainTag = (props) => {
-	return <RoundedBox customHeight={props.customHeight}>
-		MainTag #... #... #... #...
-	</RoundedBox>
+	return <div className={styles.container}>
+		<span>#... </span>
+		<span>#... </span>
+		<span>#... </span>
+	</div>
 };
 
 export default MainTag;
