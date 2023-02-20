@@ -1,5 +1,5 @@
 import IconsRadio from "../mui/IconsRadio";
-import ChoiceChipCheckbox from "../mui/ChoiceChipCheckbox";
+// import ChoiceChipCheckbox from "../mui/ChoiceChipCheckbox";
 import { Container, Stack } from "@mui/material";
 import RecommendationCafeList from "@/components/pages/RecommendationCafeList";
 
@@ -8,7 +8,7 @@ function Contents() {
         <>
             <Stack spacing={2} mt="10px">
                 <IconsRadio />
-                <ChoiceChipCheckbox />
+                {/* <ChoiceChipCheckbox /> */}
                 <Container maxWidth={false} disableGutters={true}>
                     {/* <RecommendationCafeList /> */}
                 </Container>

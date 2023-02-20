@@ -18,5 +18,14 @@
 
 
 2023-02-18
+* Main 양 옆 padding 5%
+* MainItem 간격은 일정하게 `MainItem 크기`로 브라우저 크기 변경 대응
+    * MainLIst 를 flex => grid 변경
+* MainSlide_slide-show 가 over-flow: hidden 인데 브라우저가 작아질 때는 안 감춰지게 하려면?
+    * slide-item 이 slide-show 를 넘기 전에 렌더링되는 갯수를 줄이면 된다.
 * npm => yarn 변경
 * 슬라이드 라이브러리 사용 고려
+* 상세 페이지 틀 만들기
+* npm install 에러 해결
+```
+```
