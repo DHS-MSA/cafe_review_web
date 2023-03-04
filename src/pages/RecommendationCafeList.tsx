@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-import CafeInfo from "@/components/pages/CafeInfo";
+import CafeInfo from "@/pages/CafeInfo";
 
 /**
  * @description 추천 매장 리스트 컴포넌트

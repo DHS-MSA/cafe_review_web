@@ -4,10 +4,12 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    border-radius: 20px;
-    box-shadow: 0px 2px 3px 0px #0000006e;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 3px 0px #5856566e;
     /* border: 1px solid; */
-    height: 40px;
+    min-width: 600px;
+    height: 48px;
     padding-right: 2%;
 }
 
@@ -19,4 +21,13 @@
 	padding-left: 1%;
 	padding-right: 1%;
     border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.search-button {
+    all: initial;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgb(223, 218, 218);
 }

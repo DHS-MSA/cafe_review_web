@@ -1,7 +1,7 @@
 import IconsRadio from "../mui/IconsRadio";
 // import ChoiceChipCheckbox from "../mui/ChoiceChipCheckbox";
 import { Container, Stack } from "@mui/material";
-import RecommendationCafeList from "@/components/pages/RecommendationCafeList";
+import RecommendationCafeList from "@/pages/RecommendationCafeList";
 
 function Contents() {
     return (

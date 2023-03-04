@@ -1,13 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import CafeInfoDetail from "@/components/pages/CafeInfoDetail";
-import Registration from "@/components/pages/Registration";
-import TestPage from "@/components/pages/TestMain/TestPage";
+import CafeInfoDetail from "@/pages/CafeInfoDetail";
+import Registration from "@/pages/Registration";
+import TestMain from "@/pages/TestMain";
 import App from "@/App";
 
 /**
  * @description 라우터 경로 설정
- * @see [https://reactrouter.com/en/main/routers/create-browser-router]
+ * @see https://reactrouter.com/en/main/routers/create-browser-router
  */
 const router = createBrowserRouter([
     {
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <Registration />,
     },
     {
-        path: "/testPage",
-        element: <TestPage />,
+        path: "/testMain",
+        element: <TestMain />,
     },
 ]);
 

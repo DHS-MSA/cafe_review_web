@@ -1,6 +1,6 @@
-import Header from "@/components/layout/Header";
-import Content from "@/components/layout/Contents";
-import Footer from "@/components/layout/Footer";
+import Header from "@/layout/Header";
+import Content from "@/layout/Contents";
+import Footer from "@/layout/Footer";
 
 function App() {
     return (

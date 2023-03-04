@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1120px;
+    height: 100px;
+    background-color: rgb(223, 131, 131);
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1120px;
+    height: 100px;
+}
+
+.bodyTop {
+    max-width: 1120px;
+    height: 404px;
+    background-color: rgb(235, 235, 152);
+}
+
+.bodyBottom {
+    max-width: 1120px;
+    height: auto;
+    background-color: rgb(140, 240, 140);
+}
+
+.footer {
+    min-width: 1120px;
+    background-color: rgb(126, 126, 238);
+    z-index: 1;
+}
