@@ -31,8 +31,8 @@ const MainItem = (props) => {
                 <p>{storeName}</p>
                 <p>Seoul, Gangnam</p>
                 <p>
-                    {tags.map((tag) => {
-                        return <span key={Math.round(Math.random() * 1000)}>{tag} </span>
+                    {tags.map((tag, index) => {
+                        return <span key={index}>{tag} </span>
                     })}
                 </p>
             </div>
